@@ -1,0 +1,118 @@
+#temple {
+    height: 300px;
+    top: 200px;
+    left: 150px;
+    position: absolute;
+    z-index: 2;
+}
+
+#bigtemple {
+    height: 800px;
+    top: 170px;
+    left: 0px;
+    position: absolute;
+    animation-name: fade;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    z-index: 1
+}
+
+#bigtemple:active {
+    animation-duration: 0s;
+}
+
+#rainbow {
+    font-family: "Comic Sans MS";
+    animation-name: rainbow;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    z-index: 2
+}
+
+#title {
+    top: -20px;
+    position: relative;
+    animation-name: embiggen, rainbow;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    z-index: 2
+}
+
+#container {
+    height: 50px;
+}
+
+#textcontainer {
+    position: absolute;
+    height: 90px;
+    width: 1280px;
+}
+
+#bouncytext {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+@keyframes rainbow {
+    0% {
+        background-color: black;
+    }
+    10% {
+        background-color: black;
+    }
+    20% {
+        background-color: black;
+    }
+    30% {
+        background-color: black;
+    }
+    50% {
+        background-color: black;
+    }
+    60% {
+        background-color: black;
+    }
+    70% {
+        background-color: black;
+    }
+    80% {
+        background-color: black;
+    }
+    90% {
+        background-color: black;
+    }
+    100% {
+        background-color: black;
+    }
+}
+
+@keyframes embiggen {
+    0% {
+        font-size: 20px;
+    }
+    50% {
+        font-size: 50px;
+    }
+    100% {
+        font-size: 20px;
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    80% {
+        opacity: .0;
+    }
+    90% {
+        opacity: .0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
