@@ -1,0 +1,27 @@
+#container {
+    position: relative;
+    left: 100px;
+    width: 500px;
+    height: 300px;
+    border: 5px black solid;
+    background-color: #EEE;
+    cursor: pointer;
+}
+
+#thing {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 225px;
+    top: 125px;
+    background-color: green;
+    transition: transform .2s, background .5s, left .5s ease-out, top .5s ease-out;
+}
+
+#thing:hover {
+    background-color: blue;
+}
+
+#thing:active {
+    transform: scale(30);
+}

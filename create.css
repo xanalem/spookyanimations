@@ -1,18 +1,10 @@
-#temple {
-    height: 300px;
-    top: 200px;
-    left: 150px;
-    position: absolute;
-    z-index: 2;
-}
-
 #bigtemple {
     height: 800px;
     top: 170px;
     left: 0px;
     position: absolute;
     animation-name: fade;
-    animation-duration: 30s;
+    animation-duration: 3s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     z-index: 1
@@ -25,37 +17,19 @@
 #rainbow {
     font-family: "Comic Sans MS";
     animation-name: rainbow;
-    animation-duration: 1s;
+    animation-duration: 3s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     z-index: 2
 }
 
-#title {
-    top: -20px;
-    position: relative;
-    animation-name: embiggen, rainbow;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    z-index: 2
-}
+
 
 #container {
     height: 50px;
 }
 
-#textcontainer {
-    position: absolute;
-    height: 90px;
-    width: 1280px;
-}
 
-#bouncytext {
-    position: relative;
-    top: 0px;
-    left: 0px;
-}
 
 @keyframes rainbow {
     0% {
@@ -77,40 +51,51 @@
         background-color: black;
     }
     70% {
-        background-color: black;
+        background-color: white;
     }
     80% {
-        background-color: black;
+        background-color: white;
     }
     90% {
         background-color: black;
     }
     100% {
-        background-color: black;
+        background-color: white;
     }
 }
 
-@keyframes embiggen {
-    0% {
-        font-size: 20px;
-    }
-    50% {
-        font-size: 50px;
-    }
-    100% {
-        font-size: 20px;
-    }
-}
+
 
 @keyframes fade {
     0% {
         opacity: 0;
     }
+    10% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 1;
+    }
     80% {
-        opacity: .0;
+        opacity: 0;
     }
     90% {
-        opacity: .0;
+        opacity: 1;
     }
     100% {
         opacity: 0;

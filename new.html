@@ -47,7 +47,7 @@
         function randRange(maxNum, minNum) {
             return (Math.floor(Math.random(10) * (maxNum - minNum + 1)) + minNum);
         }
-
+//yes it's jQuery but I watched a tutorial and understand how it works.//
         function createRain() {
             for (i = 0; i < nbDrop; i++) {
 
@@ -61,7 +61,7 @@
     </script>
 </head>
 
-<body onload="createRain()" id="rainbow">
+<body onload="createRain()" id="rainbow" id="fade">
     <audio controls="" autoplay="" hidden="">
   <source src="images/2_Minute_Thunderstorm-Mike_Koenig-574654058.mp3" type="audio/mpeg">
   <p>If you can read this, you're not experiencing the wonders of the audio element.</p>
